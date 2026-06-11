@@ -7,6 +7,13 @@ This Capstone Project focuses on analyzing Zomato's restaurant data to extract m
 
 ---
 
+## 📊 Dataset Details
+The project utilizes two primary datasets uploaded in this repository:
+- `Zomato Restaurant names and Metadata.csv`: Contains restaurant details such as Name, Location, Cuisines, and Average Cost for two.
+- `Zomato Restaurant reviews.csv`: Contains customer review texts, ratings, and timestamps.
+
+---
+
 ## 🛠️ Tech Stack & Libraries Used
 - **Language:** Python
 - **Environment:** Google Colab / Jupyter Notebook
@@ -35,8 +42,16 @@ This Capstone Project focuses on analyzing Zomato's restaurant data to extract m
 
 ---
 
+## 🎯 Key Project Insights & Conclusion
+- **Sentiment Trends:** The majority of reviews provided crucial indicators regarding food quality and service delivery times, achieving robust classification accuracy via NLP pipelines.
+- **Business Hotspots:** Unsupervised clustering successfully mapped and segmented target zones, helping identify premium dining hubs versus value-driven market clusters based on average costs and spatial distribution.
+
+---
+
 ## 📂 Repository Structure
 - `Zomato_Restaurant_Insights_Capstone.ipynb` : The complete Google Colab Notebook containing the full source code, visualizations, and model outputs.
+- `Zomato Restaurant names and Metadata.csv` : Raw metadata file for restaurant attributes.
+- `Zomato Restaurant reviews.csv` : Customer review dataset for NLP tasks.
 - `README.md` : Project documentation and summary.
 
 ---
@@ -45,4 +60,3 @@ This Capstone Project focuses on analyzing Zomato's restaurant data to extract m
 - **Name:** Rupali Rathore
 - **Course:** B.Tech (Information Technology)
 - **Institution:** Rajasthan Technical University (RTU), Kota
-
